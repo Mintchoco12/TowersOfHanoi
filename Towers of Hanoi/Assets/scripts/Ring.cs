@@ -6,13 +6,9 @@ public class Ring : MonoBehaviour
 {
     public float width;
 
-    private void OnMouseDown()
-    {
-        
-    }
-
     private void Update()
     {
+        //Changes the scale
         gameObject.transform.localScale = new Vector3(width, 1, 1);
     }
 }
